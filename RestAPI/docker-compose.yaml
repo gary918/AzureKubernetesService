@@ -1,0 +1,8 @@
+version: '1'
+services:
+  myservice:
+    build: ./
+    image: gary.microsoft.com/myservice:v1
+    container_name: myservice
+    ports:
+        - "8080:8080"
